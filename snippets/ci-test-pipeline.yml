@@ -1,0 +1,40 @@
+# Reusable GitHub Actions snippet — QA test pipeline
+# Runs smoke on every push; full regression on PRs to main. Adapt to your stack.
+
+name: qa-tests
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - name: Smoke (Playwright)
+        run: npx playwright test --grep @smoke
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with: { name: playwright-trace, path: test-results/ }
+
+  regression:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    needs: smoke
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - name: Full regression
+        run: npx playwright test
+      - name: Publish report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with: { name: playwright-report, path: playwright-report/ }
