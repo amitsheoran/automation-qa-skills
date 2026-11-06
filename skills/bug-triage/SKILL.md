@@ -46,3 +46,7 @@ fix first and why.
 - [ ] Every bug has an action and (if actionable) an owner.
 - [ ] Release blockers are explicitly flagged.
 - [ ] Rationale is one clear sentence per bug.
+
+## Example
+
+See `examples/release-backlog.md` for a full worked example.

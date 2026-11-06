@@ -52,3 +52,7 @@ and edge/localized cases — always synthetic, never real customer PII.
 - [ ] Localized / unicode / injection cases included.
 - [ ] Related records keep referential integrity.
 - [ ] Generation is reproducible (seeded) and in the requested format.
+
+## Example
+
+See `examples/user-signup-data.md` for a full worked example.

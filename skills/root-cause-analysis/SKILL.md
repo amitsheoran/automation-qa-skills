@@ -55,3 +55,7 @@ Prevention:     <regression test / alert / guardrail>
 - [ ] Symptom, trigger, and root cause are clearly separated.
 - [ ] Fix addresses the root cause, not the symptom.
 - [ ] A concrete regression test / guardrail is proposed.
+
+## Example
+
+See `examples/checkout-500.md` for a full worked example.

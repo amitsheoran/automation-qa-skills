@@ -43,3 +43,7 @@ the manual checks tools can't do (keyboard, screen reader, focus order).
 - [ ] Each finding maps to a specific WCAG success criterion.
 - [ ] Contrast and focus visibility verified.
 - [ ] Findings prioritized with concrete fixes.
+
+## Example
+
+See `examples/checkout-audit.md` for a full worked example.

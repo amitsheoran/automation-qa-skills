@@ -47,3 +47,7 @@ Verdict: Sane — proceed  |  Not sane — reopen / full regression
 - [ ] The original defect is confirmed fixed.
 - [ ] Checks are focused on the change's blast radius (not everything).
 - [ ] A clear proceed / escalate verdict is given.
+
+## Example
+
+See `examples/coupon-fix.md` for a full worked example.

@@ -55,3 +55,7 @@ are done* — for a specific feature or release.
 - [ ] Environments, data, and tools identified.
 - [ ] Top risks have mitigations and owners.
 - [ ] Deliverables and sign-off defined.
+
+## Example
+
+See `examples/mobile-checkout-release.md` for a full worked example.

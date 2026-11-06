@@ -54,3 +54,7 @@ Verdict: Ready to test  |  Needs clarification (blocking: <items>)
 - [ ] Missing criteria and edge cases listed.
 - [ ] NFRs and dependencies considered.
 - [ ] Clear Ready / Needs-clarification verdict.
+
+## Example
+
+See `examples/bulk-export.md` for a full worked example.

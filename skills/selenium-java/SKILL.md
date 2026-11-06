@@ -66,3 +66,7 @@ public void validLoginRedirectsToDashboard() {
 - [ ] Explicit waits only — zero `Thread.sleep`.
 - [ ] Stable locators (`id`/`data-testid`/css over brittle absolute XPath).
 - [ ] Config and data externalized; failure screenshots captured.
+
+## Example
+
+See `examples/search-flow.md` for a full worked example.

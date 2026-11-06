@@ -52,3 +52,7 @@ Coverage & next: <what was covered / what still needs a session>
 - [ ] At least one heuristic set drove coverage.
 - [ ] Session is time-boxed with running notes.
 - [ ] Findings are logged and debriefed with coverage/risk notes.
+
+## Example
+
+See `examples/search-filters-session.md` for a full worked example.

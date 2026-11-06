@@ -61,3 +61,7 @@ User Logs In As
 - [ ] Variables/config externalized (no hardcoded URLs in cases).
 - [ ] Setup/Teardown manage state; tags enable selective runs.
 - [ ] Data-driven cases use Test Templates where appropriate.
+
+## Example
+
+See `examples/search-suite.md` for a full worked example.

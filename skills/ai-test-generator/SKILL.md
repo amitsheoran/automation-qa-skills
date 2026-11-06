@@ -52,3 +52,7 @@ Gaps for manual follow-up: concurrency, idempotency-key reuse
 - [ ] Verified to fail on a real regression (mutation check).
 - [ ] No duplicated/hallucinated tests; naming matches the repo.
 - [ ] Coverage gaps the AI missed are noted.
+
+## Example
+
+See `examples/orders-api-tests.md` for a full worked example.

@@ -56,3 +56,7 @@ SELECT (SELECT COUNT(*) FROM staging.orders)
 - [ ] Integrity, constraint, and reconciliation checks included.
 - [ ] Migration/ETL verified with before/after counts and spot checks.
 - [ ] No secrets or real PII pasted into the repo.
+
+## Example
+
+See `examples/warehouse-reconciliation.md` for a full worked example.

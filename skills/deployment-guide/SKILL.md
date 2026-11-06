@@ -56,3 +56,7 @@ Rollback (if <trigger>):
 - [ ] Backup taken and current version recorded before deploy.
 - [ ] Post-deploy smoke + metric verification included.
 - [ ] Rollback has explicit trigger conditions and is verified after.
+
+## Example
+
+See `examples/payments-v2-4-0.md` for a full worked example.

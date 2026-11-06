@@ -52,3 +52,7 @@ Ref:       OWASP API1:2023 (BOLA)
 - [ ] Findings are reproducible with concrete steps.
 - [ ] Each finding has severity, impact, and a remediation.
 - [ ] No destructive actions; no real user data exfiltrated.
+
+## Example
+
+See `examples/orders-api-authz.md` for a full worked example.

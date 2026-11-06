@@ -63,3 +63,7 @@ void createUser_missingEmail_returns400() {
 - [ ] Assert status, schema, headers, and body — not only status.
 - [ ] Data integrity verified via round-trip (CRUD).
 - [ ] Tests independent; data seeded/cleaned via API.
+
+## Example
+
+See `examples/orders-endpoint.md` for a full worked example.

@@ -52,3 +52,7 @@ Recommendation: Go / No-Go / Go with caveats — <one line why>
 - [ ] Open defects linked with severities.
 - [ ] Scope explicitly lists what was NOT tested.
 - [ ] Written for the stated audience (no unexplained jargon for non-QA readers).
+
+## Example
+
+See `examples/release-3-4-0-summary.md` for a full worked example.

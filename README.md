@@ -118,8 +118,9 @@ automation-qa-skills/
 
 ## Roadmap
 
-- **v1.0** — Manual, automation, API/SQL, non-functional, delivery & AI skills *(current)*.
-- **v1.x** — Cross-skill worked examples, per-skill `examples/` for every skill, spell/lint CI.
+- **v1.0** — Manual, automation, API/SQL, non-functional, delivery & AI skills.
+- **v1.1** — Per-skill `examples/` for every skill *(current)*.
+- **v1.x** — Cross-skill worked examples, spell/lint CI.
 - **v2.0** — Visual regression, mobile web, more framework snippets (Gatling, JMeter plans).
 - **v3.0** — MCP integration, Jira/Azure DevOps API skills, automatic test-data pipelines.
 

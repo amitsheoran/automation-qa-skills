@@ -53,3 +53,7 @@ driver.findElement(submit).click();
 - [ ] `accessibility id` locators preferred over xpath.
 - [ ] Page Objects + explicit waits; no fixed sleeps.
 - [ ] Config externalized; CI targets emulator/device cloud.
+
+## Example
+
+See `examples/android-login.md` for a full worked example.

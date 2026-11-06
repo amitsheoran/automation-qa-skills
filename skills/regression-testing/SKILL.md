@@ -46,3 +46,7 @@ Plus a **selection rule**: e.g. "PR touching `payments/*` → run Payments + Che
 - [ ] High-risk / historically buggy areas are prioritized.
 - [ ] Full vs. selective run policy is defined.
 - [ ] Flaky tests are identified and quarantined, not ignored.
+
+## Example
+
+See `examples/payments-refactor.md` for a full worked example.

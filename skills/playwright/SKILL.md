@@ -53,3 +53,7 @@ test('valid login redirects to dashboard', async ({ page }) => {
 - [ ] Web-first `expect` assertions (no manual `waitForTimeout`).
 - [ ] Auth/setup via fixtures & `storageState`.
 - [ ] Trace/video on failure enabled in CI.
+
+## Example
+
+See `examples/dashboard-search.md` for a full worked example.

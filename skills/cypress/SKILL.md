@@ -60,3 +60,7 @@ Cypress.Commands.add('login', (u, p) => {
 - [ ] Reusable flows in custom commands; state seeded via API.
 - [ ] Network stubbed/aliased with `cy.intercept`; no fixed `cy.wait(ms)`.
 - [ ] Tests independent and self-resetting.
+
+## Example
+
+See `examples/checkout-coupon.md` for a full worked example.

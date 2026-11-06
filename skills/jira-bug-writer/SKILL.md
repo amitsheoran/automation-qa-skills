@@ -65,3 +65,7 @@ Evidence: screenshot.png, console.log, HAR attached.
 - [ ] Expected and Actual are separate and concrete.
 - [ ] Severity and Priority set independently, with impact stated.
 - [ ] Evidence attached; reproducibility noted.
+
+## Example
+
+See `examples/search-filter-bug.md` for a full worked example.

@@ -45,3 +45,7 @@ so a broken build is rejected within minutes.
 - [ ] Whole suite runs in a few minutes.
 - [ ] Steps are stable (no known flakiness).
 - [ ] Failure clearly blocks the pipeline.
+
+## Example
+
+See `examples/release-smoke-suite.md` for a full worked example.

@@ -51,3 +51,7 @@ Roles:            who owns unit / API / E2E / NFR / release sign-off
 - [ ] Quality gates are enforceable in CI.
 - [ ] Metrics are measurable and owned.
 - [ ] Non-functional testing has an owner and cadence.
+
+## Example
+
+See `examples/fintech-saas-strategy.md` for a full worked example.

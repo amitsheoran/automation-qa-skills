@@ -54,3 +54,7 @@ Provider verification (pseudo): load pacts from broker → set provider state `u
 - [ ] Provider states seed the data each interaction requires.
 - [ ] Contracts published to a broker and versioned/tagged.
 - [ ] `can-i-deploy` gate wired into CI before release.
+
+## Example
+
+See `examples/orders-provider.md` for a full worked example.

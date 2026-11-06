@@ -60,3 +60,7 @@ export default function () {
 - [ ] Realistic workload model (think times, data variety, ramp).
 - [ ] Server-side metrics correlated with client results.
 - [ ] Results reported as percentiles with the identified bottleneck and safe capacity.
+
+## Example
+
+See `examples/checkout-load-test.md` for a full worked example.
