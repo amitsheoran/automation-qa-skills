@@ -49,3 +49,4 @@ We follow [Semantic Versioning](https://semver.org/):
 - **MAJOR** — breaking changes to skill contracts.
 - **MINOR** — new skills or backward-compatible improvements.
 - **PATCH** — fixes and clarifications.
+

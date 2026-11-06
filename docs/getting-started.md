@@ -36,3 +36,4 @@ Skills are designed to chain:
 
 See [`CONTRIBUTING.md`](../CONTRIBUTING.md) and start from
 [`templates/SKILL_TEMPLATE.md`](../templates/SKILL_TEMPLATE.md).
+

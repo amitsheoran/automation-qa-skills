@@ -40,3 +40,4 @@ screenshots/
 .env.*
 *.pem
 credentials.json
+
