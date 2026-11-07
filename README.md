@@ -43,6 +43,12 @@ performance, accessibility, and security testing.
 | [robot-framework](skills/robot-framework/SKILL.md) | Keyword-driven suites with resource files |
 | [appium](skills/appium/SKILL.md) | Cross-platform mobile (Android/iOS) automation |
 
+### Visual & mobile web
+| Skill | What it does |
+|-------|--------------|
+| [visual-regression-testing](skills/visual-regression-testing/SKILL.md) 🆕 | Screenshot-diff UI regressions against a reviewed baseline |
+| [mobile-web-testing](skills/mobile-web-testing/SKILL.md) 🆕 | Responsive/touch testing of web apps on mobile browsers |
+
 ### API & data
 | Skill | What it does |
 |-------|--------------|
@@ -54,7 +60,7 @@ performance, accessibility, and security testing.
 ### Non-functional
 | Skill | What it does |
 |-------|--------------|
-| [performance-testing](skills/performance-testing/SKILL.md) | Load/stress/spike/soak with SLOs (k6/JMeter/Gatling) |
+| [performance-testing](skills/performance-testing/SKILL.md) | Load/stress/spike/soak with SLOs (k6/JMeter/Gatling examples) |
 | [accessibility-testing](skills/accessibility-testing/SKILL.md) | WCAG 2.2 AA: axe + keyboard/screen-reader/contrast |
 | [security-testing](skills/security-testing/SKILL.md) | Authorized, defensive OWASP Top 10 testing |
 
@@ -64,7 +70,8 @@ performance, accessibility, and security testing.
 | [deployment-guide](skills/deployment-guide/SKILL.md) | Release runbook: pre-deploy, verify, monitor, rollback |
 | [ai-test-generator](skills/ai-test-generator/SKILL.md) | Generate tests from code/spec with a hardening review |
 
-💡 = **Suggested additions** beyond the original spec (see below).
+💡 = **Suggested additions** beyond the original spec (see below). 🆕 = **Added in v2.0**
+(visual regression + mobile web).
 
 ---
 
@@ -119,9 +126,9 @@ automation-qa-skills/
 ## Roadmap
 
 - **v1.0** — Manual, automation, API/SQL, non-functional, delivery & AI skills.
-- **v1.1** — Per-skill `examples/` for every skill *(current)*.
-- **v1.x** — Cross-skill worked examples, spell/lint CI.
-- **v2.0** — Visual regression, mobile web, more framework snippets (Gatling, JMeter plans).
+- **v1.1** — Per-skill `examples/` for every skill.
+- **v2.0** — Visual regression, mobile web, more framework snippets (Gatling, JMeter plans) *(current)*.
+- **Still open from v1.x** — Cross-skill worked examples, spell/lint CI.
 - **v3.0** — MCP integration, Jira/Azure DevOps API skills, automatic test-data pipelines.
 
 ---
